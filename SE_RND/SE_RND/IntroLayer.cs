@@ -16,7 +16,7 @@ namespace SE_RND
         {
 
             // create and initialize a Label
-            label = new CCLabel("Hello CocosSharp", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
+            label = new CCLabel("Hello CocosSharp this is a Test", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
 
             // add the label as a child to this Layer
             AddChild(label);

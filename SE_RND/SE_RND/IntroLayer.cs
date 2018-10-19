@@ -9,7 +9,7 @@ namespace SE_RND
     {
 
         // Define a label variable
-        CCLabel label,label2;
+        CCLabel label, slable;
 
         public IntroLayer()
             : base(CCColor4B.Blue)
@@ -17,11 +17,11 @@ namespace SE_RND
 
             // create and initialize a Label
             label = new CCLabel("Hello World this is a Test", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
-            label2 = new CCLabel("Hello World this is a Test2", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
+            slable = new CCLabel("Hello World this is a Test2", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
 
             // add the label as a child to this Layer
             AddChild(label);
-            AddChild(label2);
+            AddChild(slable);
 
         }
 

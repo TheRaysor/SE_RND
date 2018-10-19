@@ -17,9 +17,11 @@ namespace SE_RND
 
             // create and initialize a Label
             label = new CCLabel("Hello World this is a Test", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
+            slabel = new CCLabel("Hello World this is a Test2", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
 
             // add the label as a child to this Layer
             AddChild(label);
+            AddChild(label2);
 
         }
 

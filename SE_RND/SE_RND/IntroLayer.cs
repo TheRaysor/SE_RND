@@ -16,8 +16,8 @@ namespace SE_RND
         {
 
             // create and initialize a Label
-            label = new CCLabel("Hello World this is a Test", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
-            slable = new CCLabel("Hello World this is a Test2", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
+            label = new CCLabel("Tap to start !", "fonts/MarkerFelt", 33, CCLabelFormat.SpriteFont);
+            slable = new CCLabel("Score:", "fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
 
             // add the label as a child to this Layer
             AddChild(label);
@@ -34,6 +34,8 @@ namespace SE_RND
 
             // position the label on the center of the screen
             label.Position = bounds.Center;
+            slable.PositionX = 20;
+            slable.PositionY = 20;
 
             // Register for touch events
             var touchListener = new CCEventListenerTouchAllAtOnce();

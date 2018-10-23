@@ -16,7 +16,7 @@ namespace SE_RND
         {
 
             // create and initialize a Label
-            label = new CCLabel("Tap to start !", "fonts/MarkerFelt", 33, CCLabelFormat.SpriteFont);
+            label = new CCLabel("Tap to start ! :D", "fonts/MarkerFelt", 33, CCLabelFormat.SpriteFont);
 
             // add the label as a child to this Layer
             AddChild(label);
